@@ -1,0 +1,7 @@
+body {
+    background-image: url('/images/background.png');
+    background-size: cover; /* Ajuste o tamanho da imagem de fundo conforme necessário */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Isso mantém a imagem fixa, sem rolagem */
+    /* Outras propriedades de estilo, como cor de fundo ou fonte */
+  }

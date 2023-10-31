@@ -1,0 +1,94 @@
+.divStart{
+min-height: 50vh;
+}
+.title{
+    color: white;
+   font-size: 40px;
+}
+.span{
+    color: #5cf504;
+    font-weight: bold;
+}
+.subtitle{
+    color: white;
+    font-size: 30px;
+}
+.divsobre{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.text{
+    color: white;
+    font-size: 25px;
+    width: 49%;
+    text-align: justify;
+    margin-right: 50px;
+}
+.divBagTEc{
+    min-height: 100px;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 49%;
+    gap: 20px;
+    border-radius: 1em;
+    border: 2px solid #333;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+    background-color: rgb(236, 236, 236, 0.4 ); ;
+    margin-right: 50px;
+    ;
+}
+.ImgTec{
+    background: transparent;
+}
+.divProject{
+    display: flex;
+    margin: 60px 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.divCard{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: flex-end;
+    margin-right: 50px;
+    align-items: center;
+    gap: 100px;
+}
+
+.Project{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em 1em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    width: 80%;
+    min-height: 500px;
+    border-radius: 1em;
+    border: 2px solid #333;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+    backdrop-filter: blur(10px); /* Efeito de desfoque */
+    color: #fff;
+}
+
+.Project .titleProject{
+    margin: 1em 0;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Project .linkProject{
+        text-decoration: none;
+        color: #5cf504;
+}

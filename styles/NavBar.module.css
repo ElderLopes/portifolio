@@ -1,0 +1,20 @@
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    padding: 6px;
+    list-style: none;
+}
+.navbar a{
+    color: white;
+    margin-right: 1em;
+    text-decoration: none;
+    transition: 0.3s;
+    border-bottom: 2px solid transparent;
+
+}
+
+.navbar a:hover{
+    
+    color: #5cf504;
+    border-color: #5cf504;
+}

@@ -1,0 +1,71 @@
+.divTitle{
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+.textDecor{
+    color: rgb(92, 245, 4);
+    font-weight: bold;
+    font-size: 30px;
+}
+.divProject{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.ImageProject{
+    border-radius: 10px;
+}
+.divText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+}
+.span{
+    color: #5cf504;
+}
+.title{
+    color: white;
+}
+.subTitle{
+    color: white;
+}
+.parag{
+    color: white;
+}
+.divBagTEc{
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    gap: 20px;
+    border-radius: 1em;
+    border: 2px solid #333;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+    background-color: rgb(92, 245, 4, 0.3) ;
+}
+.bagTec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+.ling{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.icon{
+    width: 100%;
+    color: #5cf504;
+}
+.p{
+    color: white;
+    font-weight: 200;
+}
