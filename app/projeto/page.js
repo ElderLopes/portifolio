@@ -199,6 +199,118 @@ O número sorteado será exibido em um alerta.<br></br>
   </div>
 </div>   
 
+<div
+data-aos="fade-down-right"
+data-aos-duration="2000"
+className={style.divProject}>
+  <Image className={style.ImageProject}
+    src={`/images/pokenext.png`}
+    width="500"
+    height="500"
+    alt={'Projeto PokeNext'}
+  />
+  <div className={style.divText}>
+    <h1 className={style.title}><span className={style.span}>{'<'}</span>PokeNext<span className={style.span}>{'/>'}</span></h1>
+    <p className={style.parag}>PokeNext é uma aplicação web que utiliza a API PokeAPI para mostrar informações sobre os Pokémon. Você pode listar todos os Pokémon disponíveis e obter detalhes sobre um Pokémon específico.</p>
+    <h2 className={style.subTitle}>Funcionamento:</h2>
+    <p className={style.parag}> - Lista de Pokémon com nomes e imagens.<br></br>
+- Detalhes individuais de cada Pokémon, incluindo tipo, número, altura e peso.<br></br>
+- Navegação fácil entre a lista e os detalhes dos Pokémon.<br></br>
+</p>
+    <h2 className={style.subTitle}>{"Skill's"} Utilizadas</h2>
+    <div className={style.divBagTEc}>
+      <div className={style.bagTec}>
+        <Image className={style.ImgTec}
+          src={`/images/javascript.png`}
+          width="50"
+          height="50"
+          alt={'JavaScript'}
+        />
+        <p className={style.ling}>JavaScript</p>
+      </div> <div className={style.bagTec}>
+        <Image className={style.ImgTec}
+          src={`/images/next.png`}
+          width="50"
+          height="50"
+          alt={'NEXTJS'}
+        />
+        <p className={style.ling}>NextJS</p>
+      </div> <div className={style.bagTec}>
+        <Image className={style.ImgTec}
+          src={`/images/css.png`}
+          width="50"
+          height="50"
+          alt={'CSS'}
+        />
+        <p className={style.ling}>CSS</p>
+      </div>
+    </div>
+    {/* <p className={style.p}>Projeto On-line</p>
+                <a href='https://sorteadornumero.netlify.app/' target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon
+                        icon={faInternetExplorer}
+                        className={style.icon}
+                    /></a> */}
+    <h3 className={style.textDecor}>{'</>'}</h3>
+  </div>
+</div> 
+
+<div
+data-aos="fade-down-right"
+data-aos-duration="2000"
+className={style.divProject}>
+  <Image className={style.ImageProject}
+    src={`/images/user1.png`}
+    width="500"
+    height="500"
+    alt={'Projeto Registro User'}
+  />
+  <div className={style.divText}>
+    <h1 className={style.title}><span className={style.span}>{'<'}</span>Registro de Usuários<span className={style.span}>{'/>'}</span></h1>
+    <p className={style.parag}>Este é um projeto simples que consiste em um sorteio aleatório de números. O usuário pode definir o intervalo dos números a serem sorteados e obter o resultado.</p>
+    <h2 className={style.subTitle}>Funcionamento:</h2>
+    <p className={style.parag}>Sistema de registro de usuários no backend com uma interface de usuário em React no frontend.<br></br>
+     O sistema de registro de usuários, denominado {"User-DataBase"}, foi desenvolvido utilizando Node.js e oferece funcionalidades essenciais para o gerenciamento de usuários em um banco de dados. <br></br>
+     O frontend, intitulado {"First Project React"}, é uma aplicação de introdução ao React.<br></br>
+</p>
+    <h2 className={style.subTitle}>{"Skill's"} Utilizadas</h2>
+    <div className={style.divBagTEc}>
+      <div className={style.bagTec}>
+        <Image className={style.ImgTec}
+          src={`/images/javascript.png`}
+          width="50"
+          height="50"
+          alt={'JavaScript'}
+        />
+        <p className={style.ling}>JavaScript</p>
+      </div> <div className={style.bagTec}>
+        <Image className={style.ImgTec}
+          src={`/images/react.png`}
+          width="50"
+          height="50"
+          alt={'ReactJS'}
+        />
+        <p className={style.ling}>ReactJS</p>
+      </div> <div className={style.bagTec}>
+        <Image className={style.ImgTec}
+          src={`/images/node.png`}
+          width="50"
+          height="50"
+          alt={'NodeJS'}
+        />
+        <p className={style.ling}>NodeJS</p>
+      </div>
+    </div>
+    {/* <p className={style.p}>Projeto On-line</p>
+                <a href='https://sorteadornumero.netlify.app/' target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon
+                        icon={faInternetExplorer}
+                        className={style.icon}
+                    /></a> */}
+    <h3 className={style.textDecor}>{'</>'}</h3>
+  </div>
+</div>  
+
     </>
   )
 }

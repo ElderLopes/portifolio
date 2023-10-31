@@ -156,27 +156,28 @@ Este é um projeto simples que consiste em um sorteio aleatório de números. O 
     </div>
     <div data-aos="fade-up" data-aos-duration="2000" className={style.Project}>
       <Image
-        src={`/images/conver.png`}
+        src={`/images/pokenext.png`}
         width="200"
         height="200"
-        alt={'Projeto previsão do tempo'}
+        alt={'Projeto Pokenext'}
       />
-      <h3 className={style.titleProject}>Conversor de Moedas</h3>
-      <p className={style.sobrecard}>Projeto de conversão de moedas que oferece aos usuários a capacidade de converter valores em reais (BRL) para quatro das moedas mais populares. Este projeto utiliza uma API financeira para obter as taxas de câmbio mais atualizadas.</p>
-      <Link href={'/projeto#2'}  className={style.linkProject}>Mais...</Link>
+      <h3 className={style.titleProject}>PokeNext</h3>
+      <p className={style.sobrecard}>PokeNext é uma aplicação web que utiliza a API PokeAPI para mostrar informações sobre os Pokémon. Você pode listar todos os Pokémon disponíveis e obter detalhes sobre um Pokémon específico.</p>
+      <Link href={'/projeto'}  className={style.linkProject}>Mais...</Link>
     </div>
+
     <div data-aos="fade-up" data-aos-duration="2000" className={style.Project}>
       <Image
-        src={`/images/conver.png`}
+        src={`/images/user1.png`}
         width="200"
         height="200"
-        alt={'Projeto previsão do tempo'}
+        alt={'Projeto Pokenext'}
       />
-      <h3 className={style.titleProject}>Conversor de Moedas</h3>
-      <p className={style.sobrecard}>Projeto de conversão de moedas que oferece aos usuários a capacidade de converter valores em reais (BRL) para quatro das moedas mais populares. Este projeto utiliza uma API financeira para obter as taxas de câmbio mais atualizadas.</p>
+      <h3 className={style.titleProject}> Registro de Usuários </h3>
+      <p className={style.sobrecard}>Sistema de registro de usuários no backend com uma interface de usuário em React no frontend. </p>
       <Link href={'/projeto'}  className={style.linkProject}>Mais...</Link>
-
     </div>
+    
 
       </div>
 
