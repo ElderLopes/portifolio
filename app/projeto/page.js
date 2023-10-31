@@ -30,7 +30,7 @@ export default function Projeto() {
        data-aos-duration="2000"
         className={style.divProject}>
         <Image className={style.ImageProject}
-          src={`/images/previsao do tempo.png`}
+          src={`/images/previsao_do_tempo.png`}
           width="500"
           height="300"
           alt={'Projeto previsão do tempo'}
