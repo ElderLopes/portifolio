@@ -114,7 +114,7 @@ useEffect(() => {
 
 <div  data-aos="fade-up" data-aos-duration="2000" className={style.Project}>
       <Image
-        src={`/images/previsao do tempo.png`}
+        src={`/images/previsao_do_tempo.png`}
         width="200"
         height="200"
         alt={'Projeto previsão do tempo'}
@@ -131,7 +131,7 @@ useEffect(() => {
         src={`/images/conver.png`}
         width="200"
         height="200"
-        alt={'Projeto previsão do tempo'}
+        alt={'Projeto Conversão de Moedas'}
       />
       <h3 className={style.titleProject}>Conversor de Moedas</h3>
       <p className={style.sobrecard}>Projeto de conversão de moedas que oferece aos usuários a capacidade de converter valores em reais (BRL) para quatro das moedas mais populares. Este projeto utiliza uma API financeira para obter as taxas de câmbio mais atualizadas.</p>
