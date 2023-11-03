@@ -106,14 +106,14 @@ useEffect(() => {
       </div>
 </div>
 <div className={style.divProject}>
-<h1 className={style.title}>Alguns de meus Projetos...</h1>
+<h2 className={style.title}>Alguns de meus Projetos...</h2>
 
 </div>
 
       <div  className={style.divCard} >
 
 <div  data-aos="fade-up" data-aos-duration="2000" className={style.Project}>
-      <Image
+      <Image className={style.imgProj}
         src={`/images/previsao_do_tempo.png`}
         width="200"
         height="200"
@@ -127,7 +127,7 @@ useEffect(() => {
     </div>
 
 <div data-aos="fade-up" data-aos-duration="2000" className={style.Project}>
-      <Image
+      <Image className={style.imgProj}
         src={`/images/conver.png`}
         width="200"
         height="200"
@@ -140,7 +140,7 @@ useEffect(() => {
 
     </div>
     <div data-aos="fade-up" data-aos-duration="2000" className={style.Project}>
-      <Image
+      <Image className={style.imgProj}
         src={`/images/sorteador.png`}
         width="200"
         height="200"
@@ -155,7 +155,7 @@ Este é um projeto simples que consiste em um sorteio aleatório de números. O 
 
     </div>
     <div data-aos="fade-up" data-aos-duration="2000" className={style.Project}>
-      <Image
+      <Image className={style.imgProj}
         src={`/images/pokenext.png`}
         width="200"
         height="200"
@@ -167,7 +167,7 @@ Este é um projeto simples que consiste em um sorteio aleatório de números. O 
     </div>
 
     <div data-aos="fade-up" data-aos-duration="2000" className={style.Project}>
-      <Image
+      <Image className={style.imgProj}
         src={`/images/user1.png`}
         width="200"
         height="200"

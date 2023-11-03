@@ -1,4 +1,29 @@
 .title{
     color: white;
 }
+.paragmobile{
+    display: none;
+}
 
+
+@media (max-width: 890px) {
+.objectCV{
+    display: none;
+}
+.paragmobile{
+    display: block;
+    color: white;
+    font-size: 20px;
+}
+.link{
+    text-decoration: none;
+    color:  #5cf504;
+}
+.divContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 60vh;
+}
+}

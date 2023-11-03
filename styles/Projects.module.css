@@ -1,74 +1,119 @@
-.divTitle{
+.divTitle {
     align-items: center;
     color: white;
     font-weight: bold;
 }
-.textDecor{
+
+.textDecor {
     color: rgb(92, 245, 4);
     font-weight: bold;
     font-size: 30px;
 }
-.divProject{
+
+.divProject {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    gap: 15px;
+
 
 }
-.ImageProject{
+
+.ImageProject {
     border-radius: 10px;
     border-radius: 1em;
     border: 2px solid #333;
     box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+    width: 500px;
+    height: 300px;
 }
-.divText{
+
+.divText {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     max-width: 50%;
 }
-.span{
+
+.span {
     color: #5cf504;
 }
-.title{
+
+.title {
     color: white;
 }
-.subTitle{
+
+.subTitle {
     color: white;
 }
-.parag{
+
+.parag {
     color: white;
+    text-align: left;
 }
-.divBagTEc{
+
+.divBagTEc {
     min-height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 50%;
+    width: 80%;
     gap: 20px;
     border-radius: 1em;
     border: 2px solid #333;
     box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
-    background-color: rgb(92, 245, 4, 0.3) ;
+    background-color: rgb(236, 236, 236, 0.4);
 }
-.bagTec{
+
+.bagTec {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 5px;
 }
-.ling{
+
+.ling {
     color: white;
     font-size: 14px;
     font-weight: bold;
 }
 
-.icon{
+.icon {
     width: 100%;
     color: #5cf504;
 }
-.p{
+
+.p {
     color: white;
-    font-weight: 200;
+    font-weight: bold;
+}
+
+@media (max-width: 900px) {
+
+    .divProject{
+        display: flex;
+        flex-direction: column;
+    }
+    .title{
+        font-size: 27px;
+        width: 298px;
+    }
+}
+
+@media (max-width: 620px) {
+.ImageProject{
+    width: 80%;
+}
+.parag{
+    font-size: 14px;
+    width: 250px;
+}
+.subTitle{
+    font-size: 22px;
+}
+.divBagTEc{
+    width: 200%;
+}
+
 }

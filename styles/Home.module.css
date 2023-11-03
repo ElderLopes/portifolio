@@ -1,31 +1,38 @@
-.divStart{
-min-height: 50vh;
+.divStart {
+    min-height: 50vh;
 }
-.title{
+
+.title {
     color: white;
-   font-size: 40px;
+    font-size: 40px;
+    width: 100%;
 }
-.span{
+
+.span {
     color: #5cf504;
     font-weight: bold;
 }
-.subtitle{
+
+.subtitle {
     color: white;
     font-size: 30px;
 }
-.divsobre{
+
+.divsobre {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
-.text{
+
+.text {
     color: white;
     font-size: 25px;
     width: 49%;
     text-align: justify;
     margin-right: 50px;
 }
-.divBagTEc{
+
+.divBagTEc {
     min-height: 100px;
     display: flex;
     display: flex;
@@ -36,32 +43,34 @@ min-height: 50vh;
     border-radius: 1em;
     border: 2px solid #333;
     box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
-    background-color: rgb(236, 236, 236, 0.4 ); ;
+    background-color: rgb(236, 236, 236, 0.4);
+    ;
     margin-right: 50px;
     ;
 }
-.ImgTec{
+
+.ImgTec {
     background: transparent;
 }
-.divProject{
+
+.divProject {
     display: flex;
     margin: 60px 0;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.divCard{
+
+.divCard {
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: flex-end;
-    margin-right: 50px;
-    align-items: center;
-    gap: 100px;
+    justify-content: center;
+    width: 100%;
 }
 
-.Project{
-    
+.Project {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,16 +79,17 @@ min-height: 50vh;
     margin-bottom: 2em;
     margin-top: 2em;
     width: 80%;
-    min-height: 500px;
+    min-height: 600px;
     border-radius: 1em;
     border: 2px solid #333;
     box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
     background-color: transparent;
-    backdrop-filter: blur(10px); /* Efeito de desfoque */
+    backdrop-filter: blur(10px);
+    /* Efeito de desfoque */
     color: #fff;
 }
 
-.Project .titleProject{
+.Project .titleProject {
     margin: 1em 0;
     border-radius: 5px;
     padding: 5px;
@@ -88,7 +98,81 @@ min-height: 50vh;
     justify-content: center;
     align-items: center;
 }
-.Project .linkProject{
-        text-decoration: none;
-        color: #5cf504;
+
+.Project .linkProject {
+    text-decoration: none;
+    color: #5cf504;
+}
+
+@media (max-width: 850px) {
+    .title {
+        width: 72%;
+        margin: auto;
+    }
+    .divStart{
+        min-height: 25vh;
+    }
+
+    .divsobre {
+        align-items: center;
+        margin: auto;
+    }
+    .text{
+        width: 100%;
+        text-align: center;
+    }
+    .divBagTEc{
+        width: 70%;
+    }
+
+    .divCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+        margin: auto;
+    }
+
+   
+    
+    .imgProj{
+        width: 90%;
+        height: auto;
+    
+    }
+}
+
+@media (max-width: 620px) {
+    .title {
+        font-size: 18px;
+    }
+    .subtitle{
+        font-size: 15px;
+    }
+    .text{
+        font-size: 15px;
+        margin-right: 0;
+    }
+    .ImgTec{
+        width: 25px;
+        height: 25px;
+    }
+    .divBagTEc{
+        width: 70%;
+        min-height: 50px;
+        margin-right: 0;
+    }
+    .imgProj{
+        width: 90%;
+        height: 150px;
+    
+    }
+    .sobrecard{
+        display: none;
+    
+    }
+    .Project {
+        min-height: auto;
+    }
+
 }
